@@ -3,7 +3,13 @@
   "name": "magic-login-form-demo",
   "version": "0.1.0",
   "description": "A minimal implementation of Magic Login Form.",
-  "dependencies": {
-    "http-server": "13.0.2"
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
   }
 }
